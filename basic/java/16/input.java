@@ -1,18 +1,18 @@
-// 整数値を入力させ、0から入力値を超えない値まで2ずつ増やして表示するプログラムを作成せよ。
+// 整数値を入力させ、入力値が0でなければ再度入力させ、0であれば終了するプログラムを作成せよ。
 import java.util.Scanner;
 
 public class input {
     public static void main(String[] args) {
-        Integer value = hoge();
+        Integer value = isZero();
     }
-    public static int hoge() {
+    public static int isZero() {
         Scanner scan = new Scanner(System.in);
         System.out.print("input number: ");
-        int hoge = Integer.parseInt(scan.next());
-        if (hoge == 0) {
+
+        if (Integer.parseInt(scan.next()) == 0) {
             return 0;
         } else {
-            hoge();
+            return isZero();
         }
     }
 }
