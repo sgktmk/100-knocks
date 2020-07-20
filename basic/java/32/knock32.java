@@ -1,7 +1,13 @@
-// 延命処置
+// 1から20まで順に表示するが、5の倍数の場合は数字の代わりにbarと表示するプログラムを作成せよ。
 public class knock32 {
     public static void main(String args[]) {
-        System.out.println("延命処置");
-        System.out.println("救命処置その２");
+        int i = 0;
+        for ( i = 0; i <= 20; i++) {
+            if (i % 5 == 0) {
+                System.out.println("bar");
+            } else {
+                System.out.println(i);
+            }
+        }
     }
 }
