@@ -7,5 +7,8 @@ public class knock35 {
         System.out.print("input index: ");
 
 	int index = Integer.parseInt(scan.next());
+	int array[] = {3, 7, 0, 8, 4, 1, 9, 6, 5, 2};
+
+	System.out.println("array[" + index + "] = " + array[index]);
     }
 }
