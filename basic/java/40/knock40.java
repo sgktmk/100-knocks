@@ -4,7 +4,8 @@ import java.util.Scanner;
 public class knock40 {
     public static void main(String args[]) {
         Scanner scan = new Scanner(System.in);
-        System.out.print("input number: ");
+
+System.out.print("input number: ");
         int number = Integer.parseInt(scan.next());
 
         if (number % 2 == 0) {
