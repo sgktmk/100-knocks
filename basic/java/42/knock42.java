@@ -3,6 +3,9 @@ import java.util.Scanner;
 
 public class knock42 {
     public static void main(String args[]) {
-    
+        Scanner scan = new Scanner(System.in);    
+        System.out.print("input number 1 : ");
+        int number1= Integer.parseInt(scan.next());
+
     }
 }
