@@ -7,5 +7,19 @@ public class knock42 {
         System.out.print("input number 1 : ");
         int number1= Integer.parseInt(scan.next());
 
+        System.out.print("input number 2 : ");
+        int number2= Integer.parseInt(scan.next());
+
+        System.out.print("input number 3 : ");
+        int number3= Integer.parseInt(scan.next());
+
+        if (number2 < number1) {
+            System.out.println("NG"); 
+        }
+        else if (number3 < number2) {
+            System.out.println("NG");
+        } else {
+            System.out.println("OK");
+        }
     }
 }
