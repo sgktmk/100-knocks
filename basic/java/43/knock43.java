@@ -4,8 +4,12 @@ import java.util.Scanner;
 
 public class knock43 {
     public static void main(String args[]) {
-        System.out.println("test");
-        System.out.println("test");
-        System.out.println("test");
+        Scanner scan = new Scanner(System.in);
+        System.out.print("input a: ");
+        int num1 = Integer.parseInt(scan.next());
+        System.out.print("input b: ");
+        int num2 = Integer.parseInt(scan.next());
+        System.out.print("input c: ");
+        int num3 = Integer.parseInt(scan.next());
     }
 }
