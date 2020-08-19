@@ -13,5 +13,6 @@ public class knock43 {
         int num3 = Integer.parseInt(scan.next());
 
         System.out.println(num1 + num2 + num3);
+        System.out.println(num1 + num2 + num3);
     }
 }
